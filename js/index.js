@@ -84,3 +84,42 @@ topHeaderChild2.textContent = "About content elementum magna eros, ac posuere el
 
 let middleImg = document.getElementById("middle-img")
 middleImg.setAttribute('src', "img/mid-page-accent.jpg")
+
+let bottomContent = document.querySelector('.bottom-content')
+let bottomText = bottomContent.querySelector('.text-content')
+let bottomHeader = bottomText.querySelector('h4')
+let bottomPara = bottomText.querySelector('p')
+
+bottomHeader.textContent = "Services"
+bottomPara.textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusscelerisque quis."
+
+let bottomText2 = bottomText.nextElementSibling
+let bottomHeader2 = bottomText2.querySelector('h4')
+let bottomPara2 = bottomText2.querySelector('p')
+
+bottomHeader2.textContent = "Product"
+bottomPara2.textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, ininterdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusscelerisque quis."
+
+let bottomText3 = bottomText2.nextElementSibling
+let bottomHeader3 = bottomText3.querySelector('h4')
+let bottomPara3 = bottomText3.querySelector('p')
+
+bottomHeader3.textContent = "Vision"
+bottomPara3.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, ininterdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusscelerisque quis."
+
+let contact = document.querySelector('.contact')
+let contactHeader = contact.querySelector('h4')
+let contactPara1 = contact.querySelector('p')
+let contactPara2 = contact.querySelector('p:nth-of-type(2)')
+let contactPara3 = contact.querySelector('p:nth-of-type(3)')
+
+contactHeader.textContent = "Contact"
+contactPara1.textContent = "123 Way 456 Street Somewhere, USA"
+contactPara2.textContent = "1 (888) 888-8888"
+contactPara3.textContent = "sales@greatidea.io"
+
+let footer = document.querySelector('footer')
+let footerPara = footer.querySelector('p')
+
+footerPara.textContent = "Copyright Great Idea! 2018"
+
