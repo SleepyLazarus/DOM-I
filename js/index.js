@@ -65,3 +65,22 @@ ctaButton.textContent = "Get Started"
 
 let snipImg = document.getElementById("cta-img")
 snipImg.setAttribute('src', "img/header-img.png")
+
+let topContent = document.querySelector(".top-content")
+let topText = topContent.querySelector(".text-content")
+let topHeader = topText.querySelector("h4")
+let topHeaderChild = topHeader.nextElementSibling
+
+let topText2 = topText.nextElementSibling
+let topHeader2 = topText2.querySelector("h4")
+let topHeaderChild2 = topHeader2.nextElementSibling
+
+
+topHeader.textContent = "Features"
+topHeaderChild.textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusscelerisque quis."
+
+topHeader2.textContent = "About"
+topHeaderChild2.textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusscelerisque quis."
+
+let middleImg = document.getElementById("middle-img")
+middleImg.setAttribute('src', "img/mid-page-accent.jpg")
